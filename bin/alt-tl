@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'bundler'
+Bundler.require
+
+require File.expand_path('./../lib/alt_tl.rb', __dir__)
+
+alt_tl = AltTL::Application.new(ARGV)
+alt_tl.start
