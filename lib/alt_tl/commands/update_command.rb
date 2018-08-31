@@ -7,6 +7,7 @@ module AltTL
   module Commands
     class UpdateCommand < Command
 
+      # Start update command.
       def start
         accounts.each do |account_attributes|
           account = AltTL::Account.new(account_attributes)
