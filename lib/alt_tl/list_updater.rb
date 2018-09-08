@@ -75,7 +75,7 @@ module AltTL
     # @param [Array] user_ids
     def add_to_list(user_ids)
       puts 'Adds'
-      pp user_ids
+      puts user_ids.join(', ')
 
       user_ids.each_slice(50) do |ids|
         client.add_list_members(list_id, ids)
@@ -87,7 +87,7 @@ module AltTL
     # @param [Array] user_ids
     def remove_from_list(user_ids)
       puts 'Removes'
-      pp user_ids
+      puts user_ids.join(', ')
 
       user_ids.each_slice(50) do |ids|
         client.remove_list_members(list_id, ids)
