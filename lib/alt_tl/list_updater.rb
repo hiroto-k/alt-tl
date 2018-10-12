@@ -80,6 +80,9 @@ module AltTL
       user_ids.each_slice(50) do |ids|
         client.add_list_members(list_id, ids)
       end
+
+    rescue StandardError => e
+      pp e
     end
 
     # Remove from list.
@@ -92,6 +95,9 @@ module AltTL
       user_ids.each_slice(50) do |ids|
         client.remove_list_members(list_id, ids)
       end
+
+    rescue StandardError => e
+      pp e
     end
   end
 end
