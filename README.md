@@ -1,6 +1,6 @@
 # alt-tl
 
-[![License](https://img.shields.io/github/license/hiroto-k/alt-tl.svg)](https://github.com/hiroto-k/alt-tl/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/hiroxto/alt-tl.svg)](https://github.com/hiroxto/alt-tl/blob/master/LICENSE)
 
 ``statuses/home_timeline``の代替リストを作成する。
 
@@ -39,4 +39,4 @@ User Stream API廃止により、強制的に``15/15min``の``statuses/home_time
 
 ## License
 
-[MIT License](https://github.com/hiroto-k/alt-tl/blob/master/LICENSE "MIT License")
+[MIT License](https://github.com/hiroxto/alt-tl/blob/master/LICENSE "MIT License")
