@@ -1,7 +1,6 @@
 # alt-tl
 
 [![License](https://img.shields.io/github/license/hiroto-k/alt-tl.svg)](https://github.com/hiroto-k/alt-tl/blob/master/LICENSE)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a0640c8e2e61a30cfe15/maintainability)](https://codeclimate.com/github/hiroto-k/alt-tl/maintainability)
 
 ``statuses/home_timeline``の代替リストを作成する。
 
