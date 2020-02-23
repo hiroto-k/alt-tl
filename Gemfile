@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'bundler', '~>1.16', require: %w(pp yaml)
+gem 'bundler', '~>2.0', require: %w(pp yaml)
 
 gem 'activesupport', '~>5.2', require: %w(active_support active_support/core_ext)
 gem 'mixlib-config', '~>2.2', require: 'mixlib/config'
